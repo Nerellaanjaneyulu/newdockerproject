@@ -1,36 +1,36 @@
 version: '3'
 services:
   uber:
-    image: anjaneyulu02/uber:v1
+    image: anjaneyulu02/uber:latest
     ports:
-      - "81:80"
+      - "90:80"
     deploy:
       replicas: 3
 
   swiggy:
-    image: anjaneyulu02/swiggy:v1
+    image: anjaneyulu02/swiggy:latest
     ports:
-      - "82:80"
+      - "91:80"
     deploy:
       replicas: 3
 
   zomato:
-    image: anjaneyulu02/zomato:v1
+    image: anjaneyulu02/zomato:latest
     ports:
-      - "83:80"
+      - "92:80"
     deploy:
       replicas: 3
 
   pizza:
-    image: anjaneyulu02/pizza:v1
+    image: anjaneyulu02/pizza:latest
     ports:
-      - "84:80"
+      - "93:80"
     deploy:
       replicas: 3
 
   kfc:
-    image: anjaneyulu02/kfc:v1
+    image: anjaneyulu02/kfc:latest
   ports:
-    - "84:80"
+    - "94:80"
   deploy:
     replicas: 3
