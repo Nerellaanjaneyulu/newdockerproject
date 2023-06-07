@@ -3,34 +3,34 @@ services:
   uber:
     image: anjaneyulu02/uber:latest
     ports:
-      - "90:80"
+      - "8080:80"
     deploy:
       replicas: 3
 
   swiggy:
     image: anjaneyulu02/swiggy:latest
     ports:
-      - "91:80"
+      - "8081:80"
     deploy:
       replicas: 3
 
   zomato:
     image: anjaneyulu02/zomato:latest
     ports:
-      - "92:80"
+      - "8082:80"
     deploy:
       replicas: 3
 
   pizza:
     image: anjaneyulu02/pizza:latest
     ports:
-      - "93:80"
+      - "8083:80"
     deploy:
       replicas: 3
 
   kfc:
     image: anjaneyulu02/kfc:latest
   ports:
-    - "94:80"
+    - "8084:80"
   deploy:
     replicas: 3
